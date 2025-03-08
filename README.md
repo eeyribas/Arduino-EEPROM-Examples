@@ -1,18 +1,20 @@
 # Arduino-EEPROM-Examples
-The repository contains Arduino EEPROM examples. There are five examples available:
+Contains Arduino EEPROM examples. These examples include EepromAssignEmptyValues, EepromFindEmptyAddress, EepromReadAndWrite, EepromReadData and ReadAndWriteInByteAndArrayFormat. These examples:
 
-1. EepromAssignEmptyValues: An example that performs the task of assigning empty values to EEPROM.
+1. EepromAssignEmptyValues: Performs the task of assigning empty values to EEPROM.
 
 2. EepromFindEmptyAddress: Finds empty address values in EEPROM.
 
-3. EepromReadAndWrite: An example that involves reading from and writing to EEPROM.
+3. EepromReadAndWrite: Performs reading from and writing to EEPROM.
 
-4. EepromReadData: Allows reading all data from EEPROM.
+4. EepromReadData: Performs reading all data from EEPROM.
 
 5. ReadAndWriteInByteAndArrayFormat: Performs read and write operations to EEPROM in byte and array format.
 
+Programming Language: C/C++ Programming Language
+
+IDE: Arduino IDE Version - 2.2.0
+
 Arduino Used: Arduino Uno, Arduino Mega
 
-Arduino IDE Version: 2.2.0
-
-Arduino Connection: Communicates with EEPROM via I2C.
+Arduino Connection: Communication with EEPROM is established via I2C.
